@@ -1,0 +1,109 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+    background-image: url("img/fondos-de-tecnologia.jpg");
+    background-size: cover;
+    font-size: 1.9rem;
+}
+
+.contenedor {
+    width: 120rem;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.navbar-items{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+}
+
+.navbar-brand{
+    margin: 0;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+.navbar-items li {
+    margin: 2rem;
+}
+
+.navbar-items li a {
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.mi-historia{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mi-historia-texto{
+    flex-basis: 60%;
+}
+
+.mi-historia-img{
+    flex-basis: 40%;
+}
+
+.mi-historia-img img{
+    border-radius: .9rem;
+}
+
+.p2{
+    padding: 2rem;
+}
+
+.albums{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    flex-basis: 20%;
+    box-shadow: .5rem .5rem 1rem rgba(0,0,0,0.3);
+    padding: 1rem;
+}
+
+.centrar-texto{
+    text-align: center;
+}
+
+.lista-comidas{
+    list-style: none;
+}
+
+.lista-comidas li {
+    box-shadow: .5rem .5rem 1rem rgba(0,0,0,0.3);
+    margin: 3rem;
+    padding: 3rem;
+    border-radius: 0.9rem;
+    border-left: solid 2rem red;
+}
+
+.galeria {
+    display: flex;  
+}
+
+.galeria {
+    width: 50rem;
+    height: 50rem;
+}
